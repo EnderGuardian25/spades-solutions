@@ -1,6 +1,6 @@
 # Spades Solutions — Website Handoff
 
-**Project:** Marketing website for **Spades Solutions** — a t-shirt printing & logistics startup.
+**Project:** Marketing website for **Spades Solutions** — a t-shirt printing & events AV (sounds & lights) startup.
 **Status:** v1 build complete (3 pages, static). Pending real assets + content + deployment.
 **Location:** `D:\Bistec\spades-solutions\` (deliberately kept **outside** the `bistec-studio` git repo at `D:\Bistec\designer`).
 **Stack:** Plain HTML / CSS / JS — no build step. Host the folder anywhere (Netlify, GitHub Pages, any static host).
@@ -20,7 +20,7 @@
 | Order flow | **Contact form + WhatsApp button** |
 | Tech / hosting | **Plain HTML/CSS/JS**, no build step |
 | Brand colors | **Extracted from the logo** (navy + silver-blue on white) |
-| Services | Reduced to **2 core services** (see §4) with an accordion ("dropdown") layout |
+| Services | **2 core services** (see §4): Custom Apparel & Printing, and Sounds & Lights (event AV) |
 | WhatsApp number | **Placeholder** — client to provide (`940000000000` used as stand-in) |
 
 ### Logo
@@ -80,18 +80,18 @@ spades-solutions/
 - Sticky header (SVG crest + wordmark, Home/Services/Contact, "Get a Quote" CTA, mobile hamburger)
 - **Hero** — eyebrow, Fraunces headline "Wear your brand, delivered with precision.", dual CTA (Request a quote + WhatsApp), rotating heraldic seal visual
 - **Audience strip** — Businesses & Corporates · Events & Sports Teams · Individuals
-- **Services preview** — 2 cards (01 Custom Apparel & Printing, 02 Logistics & Delivery) linking into Services
-- **How it works** — 4 steps (brief → sample → produce → deliver)
+- **Services preview** — 2 cards (01 Custom Apparel & Printing, 02 Sounds & Lights) linking into Services
+- **How it works** — 4 steps (brief → quote & plan → produce/prep → deliver & execute)
 - **Selected work** — placeholder gallery grid (swap for real product photos)
 - **Navy CTA band** + footer
 
 ### Services (`services.html`)
 **Key requirement met:** the 2 services render as **accessible accordions** (the "dropdown menu or whatever integrates seamlessly"). Single-open behavior, `aria-expanded`, smooth grid-rows height animation.
 1. **Custom Apparel & Printing** (`#printing`, open by default) → reveals: Bulk/Mass Printing, Embroidery, Branded Merchandise, Design Support + meta (MOQ from 1 piece, 3–7 day turnaround)
-2. **Logistics & Delivery** (`#logistics`) → reveals: Island-wide Delivery, Bulk Fulfilment, Order Tracking, Careful Packaging + meta
+2. **Sounds & Lights** (`#sounds-lights`) → reveals: Sound Systems, Stage Lighting, Setup & Teardown, On-site Technical Support + meta (Indoor & outdoor, event-date booking)
 - Process steps + CTA band + footer
 
-> **Services interpretation (assumption — confirm with client):** "2 services" = **Printing** (with mass-printing + embroidery as sub-types) and **Logistics**, matching "t-shirt printing **and logistics** company." The earlier 3-item selection (mass printing, embroidery, logistics) is preserved as sub-items under these two. Easy to restructure if wrong.
+> **Confirmed service definition:** Service 02 is **Sounds & Lights** — professional audio and stage lighting for events (weddings, corporate events, concerts, school shows). Not delivery/logistics.
 
 ### Contact (`contact.html`)
 - Quote **form**: name*, email*, phone, company, service needed* (select), quantity (select), message* — inline validation on blur + submit, accessible errors, demo success state

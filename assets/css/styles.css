@@ -314,7 +314,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
 .acc-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .4s var(--ease); }
 .acc.is-open .acc-panel { grid-template-rows: 1fr; }
 .acc-panel-inner { overflow: hidden; }
-.acc-body { padding: 0 var(--sp-4) var(--sp-4) calc(var(--sp-4) + 2.4ch + var(--sp-3)); }
+.acc-body { padding: var(--sp-4) var(--sp-4) var(--sp-4) calc(var(--sp-4) + 2.4ch + var(--sp-3)); }
 .acc-body .sub-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-3); }
 .sub {
   border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: var(--sp-3);

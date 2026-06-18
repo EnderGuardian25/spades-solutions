@@ -283,7 +283,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
 
 /* ---------- CTA band ---------- */
 .cta-band { position: relative; background: linear-gradient(140deg, var(--navy), var(--navy-900)); color: #fff; overflow: hidden; z-index: 1; }
-.cta-band::after { content: ""; position: absolute; inset: 0; background: var(--spade-mask) right -60px center/360px no-repeat; opacity: .06; }
+.cta-band::after { content: ""; position: absolute; inset: 0; background: var(--spade-mask) right -60px center/360px no-repeat; opacity: .06; pointer-events: none; }
 .cta-band .inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--sp-4); padding: var(--sp-6) 0; }
 .cta-band h2 { font-family: var(--font-display); font-size: var(--step-3); max-width: 22ch; }
 .cta-band p { color: var(--steel-soft); margin-top: var(--sp-2); max-width: 44ch; }

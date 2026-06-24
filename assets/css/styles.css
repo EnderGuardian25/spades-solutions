@@ -379,7 +379,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-seal { max-width: 340px; margin-inline: auto; order: -1; }
+  .hero-seal { width: min(320px, 78vw); max-width: 340px; margin-inline: auto; order: -1; }
   .cards-2, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
   .gallery { grid-template-columns: 1fr 1fr; grid-auto-rows: 180px; }

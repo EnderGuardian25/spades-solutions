@@ -170,7 +170,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
   -webkit-mask: var(--spade-mask) center / contain no-repeat;
           mask: var(--spade-mask) center / contain no-repeat;
 }
-.site-footer .brand .crest { width: 36px; height: auto; flex: none; display: block; filter: brightness(0) invert(1); }
+.site-footer .brand .crest { width: 40px; height: auto; flex: none; display: block; }
 .brand .wordmark { display: flex; flex-direction: column; line-height: 1; }
 .brand .wordmark b {
   font-family: var(--font-serif-caps); font-weight: 600;
@@ -232,7 +232,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
   border: 1.5px solid var(--steel);
 }
 .hero-seal .ring.inner { inset: 16px; border-color: var(--steel-soft); }
-.hero-seal .big-spade { width: 46%; aspect-ratio: 1; background: url("../spade-navy.png") center / contain no-repeat; }
+.hero-seal .big-spade { width: 46%; aspect-ratio: 1; background: url("../Spades_Navy.png") center / contain no-repeat; }
 .hero-seal .arc-text { position: absolute; inset: 0; animation: spin 60s linear infinite; }
 .hero-seal .arc-text text { font-family: var(--font-serif-caps); font-size: 6.2px; letter-spacing: 2px; fill: var(--muted); }
 @keyframes spin { to { transform: rotate(360deg); } }

@@ -231,7 +231,6 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
   position: absolute; inset: 0; border-radius: 50%;
   border: 1.5px solid var(--steel);
 }
-.hero-seal .ring.inner { inset: 16px; border-color: var(--steel-soft); }
 .hero-seal .big-spade { width: 46%; aspect-ratio: 1; background: url("../Spades_Navy.png") center / contain no-repeat; }
 .hero-seal .arc-text { position: absolute; inset: 0; }
 .hero-seal .arc-text text { font-family: var(--font-serif-caps); font-size: 4.6px; letter-spacing: 1.7px; fill: var(--muted); }

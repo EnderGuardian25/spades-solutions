@@ -54,8 +54,14 @@
           <div class="ring"></div>
           <div class="ring inner"></div>
           <svg class="arc-text" viewBox="0 0 100 100">
-            <defs><path id="circ" d="M50,50 m-39,0 a39,39 0 1,1 78,0 a39,39 0 1,1 -78,0"/></defs>
-            <text><textPath href="#circ" startOffset="0%">VISIONS INTO REALITY · EST. 2025 · </textPath></text>
+            <defs>
+              <path id="arcTop" d="M 11,50 a 39,39 0 0,1 78,0" />
+              <path id="arcBottom" d="M 11,50 a 39,39 0 0,0 78,0" />
+            </defs>
+            <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">VISIONS INTO REALITY</textPath></text>
+            <text text-anchor="middle"><textPath href="#arcBottom" startOffset="50%">EST. 2025</textPath></text>
+            <circle class="seal-dot" cx="11" cy="50" r="0.9" />
+            <circle class="seal-dot" cx="89" cy="50" r="0.9" />
           </svg>
           <span class="big-spade" aria-hidden="true"></span>
         </div>

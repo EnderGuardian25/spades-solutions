@@ -234,7 +234,7 @@ h1, h2, h3, h4 { line-height: 1.08; font-weight: 600; letter-spacing: -0.015em; 
 .hero-seal .ring.inner { inset: 16px; border-color: var(--steel-soft); }
 .hero-seal .big-spade { width: 46%; aspect-ratio: 1; background: url("../Spades_Navy.png") center / contain no-repeat; }
 .hero-seal .arc-text { position: absolute; inset: 0; animation: spin 60s linear infinite; }
-.hero-seal .arc-text text { font-family: var(--font-serif-caps); font-size: 6.2px; letter-spacing: 2px; fill: var(--muted); }
+.hero-seal .arc-text text { font-family: var(--font-serif-caps); font-size: 6.2px; letter-spacing: 3.5px; fill: var(--muted); }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ---------- Marquee / audience strip ---------- */
